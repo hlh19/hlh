@@ -1,0 +1,92 @@
+<!--index.wxml-->
+<view class="home">
+  <view class="search">
+    <image class="ss" src="../img/search.png"></image>
+    <input class="sousuo" value="搜索..."></input>
+  </view>
+  <view class="wenzi">
+    <h1>分类排行</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="tuwen">
+      <view class="row" wx:for="{{shuju}}" wx:key="*this">
+        <view class="item">
+          <image class="tu" src="{{item.tupian}}"></image>
+          <view>
+            <text>{{item.content}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="wenzi">
+    <h1>作者排行</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="tuwen">
+      <view class="row" wx:for="{{shuju2}}" wx:key="*this">
+        <view class="item">
+          <image class="tu" src="{{item.tupian}}"></image>
+          <view>
+            <text>{{item.content}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="wenzi">
+    <h1>新发布</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju3}}" wx:key="*this">
+      <view class="item">
+        <image class="tu2" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>热门搜索</h1>
+    <view class="remen">
+      <text style="color:#FF82AB; border:1px solid #FF82AB;">2018排行榜</text>
+      <text style="color:#3CB371; border:1px solid #3CB371;">职场热门</text>
+      <text style="color:#FF7256; border:1px solid #FF7256;">都市言情</text>
+    </view>
+    <view class="row remen">  
+      <text style="color:#8A2BE2; border:1px solid #8A2BE2;">哈佛大学经济管理类</text>
+      <text style="color:#EEEE00; border:1px solid #EEEE00;">领导才能</text>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>热销榜</h1>
+    <span class="ziti1" bindtap="kehuan">查看全部 ></span>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="row2" wx:for="{{shuju4}}" wx:key="*this">
+      <view class="item2">
+        <image class="tu3" src="{{item.tupian}}"></image>
+      </view>
+      <view class="xinxi">
+        <view class="xiantiao">
+          <view>
+            <text style="color: white; font-size: 20px">{{item.content}}</text>
+          </view>
+          <view>
+            <text class="ziti2">{{item.author}}</text>
+          </view>
+        </view>
+        <view>
+          <text class="ziti2">{{item.xiangqing}}</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

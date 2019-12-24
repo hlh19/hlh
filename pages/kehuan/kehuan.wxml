@@ -1,0 +1,21 @@
+<!--pages/kehuan/kehuan.wxml-->
+<view class="kehuan">
+  <view class="row" wx:for="{{shuju}}" wx:key="*this">
+    <view class="item">
+      <image class="tu" src="{{item.tupian}}"></image>
+    </view>
+    <view class="xinxi">
+      <view class="xiantiao">
+        <view>
+          <text style="color: white; font-size: 20px">{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+      <view>
+        <text class="ziti2">{{item.xiangqing}}</text>
+      </view>
+    </view>
+  </view>
+</view>

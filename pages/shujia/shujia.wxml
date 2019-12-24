@@ -1,0 +1,37 @@
+<!--pages/shujia/shujia.wxml-->
+<view class="shujia">
+  <view class="wenzi">
+    <h1>正在阅读</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>未读</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju2}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

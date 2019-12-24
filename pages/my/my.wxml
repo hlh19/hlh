@@ -1,0 +1,16 @@
+<!--pages/my/my.wxml-->
+<view class="my">
+  <view class="up">
+    <image class="touxiang" src="../img/头像.png"></image>
+    <view class="wenzi">
+      <text style="color:white; font-size:20px">李雪玲</text>
+      <view>
+        <text style="color: #bbb">中国 · 襄阳</text>
+      </view>
+    </view>
+    <view class="share">
+      <image style="width: 40px; height: 40px; float:left" src="../img/分享.png"></image>
+      <text style="display: block">分享</text>
+    </view>
+  </view>
+</view>

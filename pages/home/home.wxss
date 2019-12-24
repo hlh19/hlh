@@ -1,0 +1,99 @@
+/**index.wxss**/
+.home{
+  height:100%;
+  background-color: #363636;
+  margin-bottom: 10px;
+}
+.sousuo{
+  width: 90%;
+  height: 50px;
+  color: #eee; 
+}
+.search{
+  margin: 0 auto;
+  background-color: #707070;
+  border-radius: 50px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.ss{
+  width: 40px;
+  height: 40px;
+}
+h1{
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+.ziti1{
+  color: #bbb;
+  float: right;
+  margin-right: 20px;
+}
+.tuwen{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.row{
+  flex: 1;
+  color: white;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4f4f4f;
+}
+.item{
+  margin: 10px;
+}
+.tu{
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.tu2{
+  width: 110px;
+  height: 160px;
+  border-radius: 10px;
+}
+.ziti2{
+  color: #707070;
+  font-size: 14px;
+}
+.remen{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.remen>text{
+  border-radius: 50px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 10px;
+}
+.row2{
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #4f4f4f;
+  margin: 30px;
+  display: flex;
+}
+.tu3{
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.xinxi{
+  margin: 10px;
+}
+.xiantiao{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #707070;
+}

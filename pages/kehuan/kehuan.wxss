@@ -1,0 +1,35 @@
+/* pages/kehuan/kehuan.wxss */
+.kehuan{
+  height:100%;
+  background-color: #363636;
+  margin-bottom: 10px;
+}
+.row{
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #4f4f4f;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.tu{
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: 20px
+}
+.xinxi{
+  margin: 10px;
+}
+.xiantiao{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #707070;
+}
+.ziti2{
+  color: #707070;
+  font-size: 14px;
+}
