@@ -1,0 +1,24 @@
+<!--pages/faxian/faxian.wxml-->
+<view class="faxian">
+  <view class="tou">
+    <text style="color:white; font-size:20px">探索</text>
+    <image class="kuai" src="../img/方块.png"></image>
+    <image class="kuai" bindtap="tansuo" src="../img/四块.png"></image>
+  </view>
+  <view style="text-align: center;">
+    <image class="bigtu" src="../img/fabu1.png"></image>
+    <view style="margin-bottom: 10px;">
+      <text style="color:white; font-size:22px">三体：死神永生</text>
+    </view>
+    <view class="author">
+      <text style="color:#bbb; font-size:18px;">刘慈心</text>
+    </view>
+    <image class="tu" src="../img/头像.png"></image>
+    <image class="tu" src="../img/头像.png"></image>
+    <image class="tu" src="../img/头像.png"></image>
+    <image class="tu" src="../img/头像.png"></image>
+    <view>
+      <text style="color:#bbb; font-size:16px;">457 人已阅读</text>
+    </view>
+  </view>
+</view>

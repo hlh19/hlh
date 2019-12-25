@@ -2,24 +2,51 @@
 .my{
   height:100%;
   background-color: #363636;
-  padding: 20px;
+  padding: 40rpx;
 }
 .touxiang{
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
-  margin-right: 15px;
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 120rpx;
+  margin-right: 30rpx;
 }
 .up{
   display: flex;
 }
 .share{
-  width: 85px;
-  height: 30px;
-  border-radius: 5px;
+  width: 170rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
   border: 1px solid #bbb;
   color: #bbb;
-  line-height: 30px;
-  margin-left: 50px;
-  margin-top: 80px;
+  line-height: 60rpx;
+  margin-left: 100rpx;
+  margin-top: 160rpx;
+}
+.mid{
+  width: 100%;
+  background-color: #4f4f4f;
+  display: flex;
+  border-radius: 20rpx;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+}
+.row{
+  flex: 1;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  text-align: center;
+}
+.row2{
+  height: 100rpx;
+  padding-top: 20rpx;
+  border-bottom: 2rpx solid #4f4f4f;
+}
+.ziti{
+  color: #bbb; 
+  font-size: 40rpx;
+  float: right;
+}
+.down{
+  padding-bottom: 200rpx;
 }

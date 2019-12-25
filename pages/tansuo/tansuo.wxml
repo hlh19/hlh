@@ -1,0 +1,18 @@
+<!--pages/tansuo/tansuo.wxml-->
+<view class="tansuo">
+  <view class="tou">
+    <text style="color:white; font-size:20px">探索</text>
+    <image class="kuai" src="../img/方块2.png"></image>
+    <image class="kuai" bindtap="tansuo" src="../img/四块2.png"></image>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" src="{{item.tupian}}"></image>
+        <view>
+          <text style="color:white">{{item.content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

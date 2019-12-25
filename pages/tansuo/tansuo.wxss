@@ -1,0 +1,31 @@
+/* pages/tansuo/tansuo.wxss */
+.tansuo{
+  height:1320rpx;
+  background-color: #363636;
+}
+.tou{
+  text-align: center;
+  padding-right: 40rpx;
+  padding-left: 140rpx;
+  padding-bottom: 60rpx;
+}
+.kuai{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  padding-left: 20rpx;
+}
+.tuwen{
+  text-align: center;
+  margin-left: 60rpx;
+}
+.item{
+  margin: 20rpx;
+  float: left;
+  margin-bottom: 40rpx;
+}
+.tu{
+  width: 300rpx;
+  height: 460rpx;
+  border-radius: 20rpx;
+}

@@ -2,38 +2,41 @@
 .shujia{
   height:100%;
   background-color: #363636;
-  margin-bottom: 10px;
+}
+.wenzi{
+  padding-top: 20rpx;
+  margin-bottom: 30rpx;
 }
 h1{
   color: white;
-  margin: 20px;
-  font-size: 20px;
+  margin: 40rpx;
+  font-size: 40rpx;
 }
 .ziti1{
   color: #bbb;
   float: right;
-  margin-right: 20px;
+  margin-right: 40rpx;
 }
 .tuwen{
   display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
 .row{
   flex: 1;
   color: white;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 40rpx;
+  padding-bottom: 40rpx;
 }
 .item{
-  margin: 10px;
+  margin: 16rpx;
 }
 .tu{
-  width: 110px;
-  height: 160px;
-  border-radius: 10px;
+  width: 220rpx;
+  height: 320rpx;
+  border-radius: 20rpx;
 }
 .ziti2{
   color: #707070;
-  font-size: 14px;
+  font-size: 28rpx;
 }

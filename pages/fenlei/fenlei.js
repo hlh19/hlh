@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/fenlei/fenlei.js
 Page({
 
   /**
@@ -7,34 +7,19 @@ Page({
   data: {
     shuju: [
       {
-        number: '1286',
-        content: '关注'
+        tupian: '../img/fabu1.png',
+        content: '三体：死神永生',
+        author: "刘慈欣"
       },
       {
-        number: '3368',
-        content: '粉丝'
+        tupian: '../img/fabu2.png',
+        content: '乡村教师',
+        author: "刘慈欣"
       },
       {
-        number: '6673',
-        content: '喜欢'
-      }
-    ],
-    shuju1: [
-      {
-        number: '个人信息',
-        content: '>'
-      },
-      {
-        number: '我的消息',
-        content: '>'
-      },
-      {
-        number: '账户余额',
-        content: '>'
-      },
-      {
-        number: '我的评论',
-        content: '>'
+        tupian: '../img/fabu4.png',
+        content: '你一声的故事',
+        author: "特德·姜"
       }
     ]
   },

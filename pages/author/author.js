@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/author/author.js
 Page({
 
   /**
@@ -7,36 +7,31 @@ Page({
   data: {
     shuju: [
       {
-        number: '1286',
-        content: '关注'
+        tupian: '../img/paihang5.png',
+        author: '王源源',
+        content: '已关注'
       },
       {
-        number: '3368',
-        content: '粉丝'
+        tupian: '../img/paihang6.png',
+        author: '张小佳',
+        content: '+关注'
       },
       {
-        number: '6673',
-        content: '喜欢'
+        tupian: '../img/paihang7.png',
+        author: '谢华英',
+        content: '已关注'
+      },
+      {
+        tupian: '../img/paihang8.png',
+        author: '张小军',
+        content: '已关注'
+      },
+      {
+        tupian: '../img/paihang8.png',
+        author: '张小军',
+        content: '已关注'
       }
     ],
-    shuju1: [
-      {
-        number: '个人信息',
-        content: '>'
-      },
-      {
-        number: '我的消息',
-        content: '>'
-      },
-      {
-        number: '账户余额',
-        content: '>'
-      },
-      {
-        number: '我的评论',
-        content: '>'
-      }
-    ]
   },
 
   /**

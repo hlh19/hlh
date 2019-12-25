@@ -1,0 +1,67 @@
+/* pages/author/author.wxss */
+.author{
+  height:100%;
+  background-color: #363636;
+}
+.up{
+  display: flex;
+  text-align: center;
+  padding: 20rpx 80rpx;
+  border-bottom: 1px solid #4f4f4f;
+}
+.toux1{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.toux2{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 90rpx;
+}
+.zi{
+  color: #bbb;
+}
+.wenzi{
+  padding-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+h1{
+  color: white;
+  margin: 40rpx;
+  font-size: 40rpx;
+}
+.ziti{
+  color: #bbb;
+  float: right;
+  margin-right: 40rpx;
+}
+.tuwen{
+  display: flex;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.row{
+  color: white;
+  margin-bottom: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #4f4f4f;
+}
+.item{
+  margin: 20rpx;
+  text-align: center;
+}
+.tu{
+  width: 152rpx;
+  height: 152rpx;
+  border-radius: 76rpx;
+}
+.ziti2{
+  color: #bbb;
+  font-size: 28rpx;
+  border: 2rpx solid #707070;
+  padding: 0rpx 20rpx;
+  border-radius: 6rpx;
+}

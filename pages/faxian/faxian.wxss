@@ -1,0 +1,35 @@
+/* pages/faxian/faxian.wxss */
+.faxian{
+  height:1320rpx;
+  background-color: #363636;
+}
+.tou{
+  text-align: center;
+  padding-right: 40rpx;
+  padding-left: 140rpx;
+  padding-bottom: 60rpx;
+}
+.kuai{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  padding-left: 20rpx;
+}
+.bigtu{
+  width: 400rpx;
+  height: 600rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.author{
+  height: 100rpx;
+  width: 400rpx;
+  border-bottom: 2rpx solid #707070;
+  margin: 0 auto;
+}
+.tu{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin: 40rpx 10rpx;
+}

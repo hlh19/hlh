@@ -1,0 +1,64 @@
+<!--pages/author/author.wxml-->
+<view class="author">
+  <view class="up">
+    <view class="left">
+      <image class="toux2" src="../img/paihang8.png"></image>
+      <view>
+        <text style="color:#FF82AB; font-size:18px">徐秋雨</text>
+      </view>
+      <text class="zi">5869 粉丝</text>
+    </view>
+    <view class="left">
+      <image class="toux1" src="../img/paihang5.png"></image>
+      <view>
+        <text style="color:orange; font-size:20px">刘慈欣</text>
+      </view>
+      <text class="zi">6598 粉丝</text>
+    </view>
+    <view class="left">
+      <image class="toux2" src="../img/paihang6.png"></image>
+      <view>
+        <text style="color:#6495ED; font-size:18px">田小花</text>
+      </view>
+      <text class="zi">5416 粉丝</text>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>热门作者</h1>
+    <span class="ziti">查看全部 ></span>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="tuwen">
+      <view class="row" wx:for="{{shuju}}" wx:key="*this">
+        <view class="item">
+          <image class="tu" src="{{item.tupian}}"></image>
+          <view style="margin:10px">
+            <text>{{item.author}}</text>
+          </view>
+          <view>
+            <text class="ziti2">{{item.content}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="wenzi">
+    <h1>新晋作者</h1>
+    <span class="ziti">查看全部 ></span>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="tuwen">
+      <view class="row" wx:for="{{shuju}}" wx:key="*this">
+        <view class="item">
+          <image class="tu" src="{{item.tupian}}"></image>
+          <view style="margin:10px">
+            <text>{{item.author}}</text>
+          </view>
+          <view>
+            <text class="ziti2">{{item.content}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

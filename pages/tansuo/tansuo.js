@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/tansuo/tansuo.js
 Page({
 
   /**
@@ -7,36 +7,22 @@ Page({
   data: {
     shuju: [
       {
-        number: '1286',
-        content: '关注'
+        tupian: '../img/fabu1.png',
+        content: '三体：死神永生'
+      }, 
+      {
+        tupian: '../img/fabu6.png',
+        content: '百年孤独'
       },
       {
-        number: '3368',
-        content: '粉丝'
+        tupian: '../img/fabu5.png',
+        content: '平凡的世界'
       },
       {
-        number: '6673',
-        content: '喜欢'
+        tupian: '../img/fabu4.png',
+        content: '未来简史'
       }
     ],
-    shuju1: [
-      {
-        number: '个人信息',
-        content: '>'
-      },
-      {
-        number: '我的消息',
-        content: '>'
-      },
-      {
-        number: '账户余额',
-        content: '>'
-      },
-      {
-        number: '我的评论',
-        content: '>'
-      }
-    ]
   },
 
   /**

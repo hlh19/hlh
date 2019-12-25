@@ -1,0 +1,51 @@
+<!--pages/fenlei/fenlei.wxml-->
+<view class="fenlei">
+  <view class="search">
+    <image class="ss" src="../img/search.png"></image>
+    <input class="sousuo" value="搜索..."></input>
+  </view>
+  <scroll-view scroll-x="true">
+    <view class="liebiao">
+      <text>科幻</text>
+      <text>职场</text>
+      <text>言情</text>
+      <text>艺术</text>
+      <text>科学</text>
+      <text>军事</text>
+    </view>
+  </scroll-view>
+  <view class="wenzi">
+    <h1>新上架</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>热门</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

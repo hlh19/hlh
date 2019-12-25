@@ -1,0 +1,36 @@
+/* pages/search/search.wxss */
+.page{
+  height:1360rpx;
+  background-color: #363636;
+}
+.sousuo{
+  width: 400rpx;
+  height: 100rpx;
+  color: #eee; 
+}
+.search{
+  background-color: #707070;
+  border-radius: 100rpx;
+  display: flex;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
+}
+.ss{
+  width: 80rpx;
+  height: 80rpx;
+}
+.wenzi{
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+h1{
+  color: white;
+  margin: 40rpx;
+  font-size: 40rpx;
+}
+.ziti1{
+  color: #bbb;
+  float: right;
+  margin-right: 40rpx;
+}

@@ -4,7 +4,12 @@
     "pages/logs/logs",
     "pages/kehuan/kehuan",
     "pages/shujia/shujia",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/fenlei/fenlei",
+    "pages/author/author",
+    "pages/faxian/faxian",
+    "pages/tansuo/tansuo",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,12 +24,12 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "iconPath": "./pages/img/Home.png",
-        "selectedIconPath": "./pages/img/Home.png"
+        "iconPath": "./pages/img/home.png",
+        "selectedIconPath": "./pages/img/home.png"
       },
       {
-        "pagePath": "pages/home/home",
-        "iconPath": "./pages/img/Shap.png",
+        "pagePath": "pages/faxian/faxian",
+        "iconPath": "./pages/img/shap.png",
         "selectedIconPath": "./pages/img/Shape.png"
       },
       {

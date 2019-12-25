@@ -92,6 +92,21 @@ Page({
       url: "../kehuan/kehuan"
     })
   },
+  fenlei: function (event) {
+    wx.navigateTo({
+      url: "../fenlei/fenlei"
+    })
+  },
+  author: function (event) {
+    wx.navigateTo({
+      url: "../author/author"
+    })
+  },
+  search: function (event) {
+    wx.navigateTo({
+      url: "../search/search"
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

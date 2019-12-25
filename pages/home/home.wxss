@@ -2,98 +2,115 @@
 .home{
   height:100%;
   background-color: #363636;
-  margin-bottom: 10px;
 }
 .sousuo{
   width: 90%;
-  height: 50px;
+  height: 100rpx;
   color: #eee; 
 }
 .search{
   margin: 0 auto;
   background-color: #707070;
-  border-radius: 50px;
+  border-radius: 100rpx;
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
 }
 .ss{
-  width: 40px;
-  height: 40px;
+  width: 80rpx;
+  height: 80rpx;
+}
+.wenzi{
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
 }
 h1{
   color: white;
-  margin: 20px;
-  font-size: 20px;
+  margin: 40rpx;
+  font-size: 40rpx;
 }
 .ziti1{
   color: #bbb;
   float: right;
-  margin-right: 20px;
+  margin-right: 40rpx;
 }
 .tuwen{
   display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
 .row{
-  flex: 1;
   color: white;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #4f4f4f;
+  margin-bottom: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #4f4f4f;
 }
 .item{
-  margin: 10px;
+  margin: 16rpx;
 }
 .tu{
-  width: 90px;
-  height: 90px;
-  border-radius: 10px;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 20rpx;
+}
+.new{
+  height: 1000rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.newh{
+  float: left;
 }
 .tu2{
-  width: 110px;
-  height: 160px;
-  border-radius: 10px;
+  width: 200rpx;
+  height: 320rpx;
+  border-radius: 20rpx;
 }
 .ziti2{
   color: #707070;
-  font-size: 14px;
+  font-size: 28rpx;
 }
 .remen{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+  margin-left: 20rpx;
 }
 .remen>text{
-  border-radius: 50px;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin: 10px;
+  border-radius: 100rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+  margin: 20rpx;
+}
+.rexiao{
+  display: flex;
+  padding-bottom: 60rpx;
 }
 .row2{
-  width: 350px;
-  height: 150px;
-  border-radius: 10px;
-  background-color: #4f4f4f;
-  margin: 30px;
   display: flex;
+  height: 300rpx;
+  border-radius: 20rpx;
+  background-color: #4f4f4f;
+  margin-top: 80rpx;
+  margin-left: 60rpx;
+}
+.item2{
+  width: 540rpx;
 }
 .tu3{
-  width: 100px;
-  height: 150px;
-  border-radius: 10px;
-  margin-top: -20px;
-  margin-left: 20px;
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin-top: -40rpx;
+  margin-left: 40rpx;
 }
 .xinxi{
-  margin: 10px;
+  margin: 20rpx;
 }
 .xiantiao{
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #707070;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 2rpx solid #707070;
 }

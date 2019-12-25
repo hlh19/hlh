@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+<view class="page">
+  <view class="search">
+    <image class="ss" src="../img/search.png"></image>
+    <input class="sousuo" value="搜索..."></input>
+  </view>
+  <text style="color:#bbb; float:right">取消</text>
+  <view class="wenzi">
+    <h1>热门搜索</h1>
+    <span class="ziti1">查看全部 ></span>
+  </view>
+</view>

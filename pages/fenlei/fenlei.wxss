@@ -1,0 +1,65 @@
+/* pages/fenlei/fenlei.wxss */
+.fenlei{
+  height:100%;
+  background-color: #363636;
+}
+.sousuo{
+  width: 90%;
+  height: 100rpx;
+  color: #eee; 
+}
+.search{
+  margin: 0 auto;
+  background-color: #707070;
+  border-radius: 100rpx;
+  display: flex;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
+}
+.ss{
+  width: 80rpx;
+  height: 80rpx;
+}
+.liebiao{
+  padding: 20rpx;
+  border-bottom: 2rpx solid #4f4f4f;
+}
+.liebiao>text{
+  margin: 30rpx;
+  color: #bbb;
+  font-size: 34rpx;
+}
+.wenzi{
+  margin: 40rpx;
+}
+h1{
+  color: white;
+  font-size: 40rpx;
+}
+.ziti1{
+  color: #bbb;
+  float: right;
+}
+.tuwen{
+  display: flex;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.row{
+  color: white;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #4f4f4f;
+}
+.item{
+  margin: 20rpx;
+}
+.tu{
+  width: 200rpx;
+  height: 320rpx;
+  border-radius: 20rpx;
+}
+.ziti2{
+  color: #707070;
+  font-size: 28rpx;
+}
