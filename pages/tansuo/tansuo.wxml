@@ -1,9 +1,9 @@
 <!--pages/tansuo/tansuo.wxml-->
 <view class="tansuo">
   <view class="tou">
-    <text style="color:white; font-size:20px">探索</text>
-    <image class="kuai" src="../img/方块2.png"></image>
-    <image class="kuai" bindtap="tansuo" src="../img/四块2.png"></image>
+    <text style="color:white; font-size:40rpx">探索</text>
+    <image class="kuai" src="../img/fangkuai2.png"></image>
+    <image class="kuai" bindtap="tansuo" src="../img/sikuai2.png"></image>
   </view>
   <view class="tuwen">
     <view class="row" wx:for="{{shuju}}" wx:key="*this">

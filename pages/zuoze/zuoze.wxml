@@ -1,0 +1,93 @@
+<!--pages/zuoze/zuoze.wxml-->
+<view class="zuoze">
+  <view class="up">
+    <image class="touxiang" src="../img/touxiang.png"></image>
+    <view>
+      <text style="color:white; font-size:44rpx">田小花</text>
+      <view>
+        <text style="color: #bbb">中国 · 保康</text>
+      </view>
+      <view class="share">
+        <image style="width: 80rpx; height: 80rpx; float:left" src="../img/share.png"></image>
+        <text style="display: block">分享</text>
+      </view>
+    </view>
+    <view class="guanzhu">
+      <text style="display: block">+关注</text>
+    </view>
+  </view>
+  <view class="mid">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <view>
+          <text style="color: white; font-size: 40rpx">{{item.number}}</text>
+        </view>
+        <text style="color: #828d9a; font-size: 26rpx">{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>代表作</h1>
+    <span class="ziti">总共 3 本书</span>
+  </view>
+  <view class="down">
+    <image class="tu" src="../img/fabu1.png"></image>
+    <view class="right" style="margin-top: 20rpx;">
+      <h1>鱼王</h1>
+      <view>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <text style="color:orange; font-size: 46rpx;margin-left: 30rpx;">5.0</text>
+      </view>
+      <view>
+        <text class="zi">刘慈欣创作的系列长篇科幻小说地球往返三部曲的第三部作品</text>
+      <view style="margin-top: 20rpx;">
+        <text class="ziti2">336 人阅读</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class="down">
+    <image class="tu" src="../img/fabu1.png"></image>
+    <view class="right" style="margin-top: 20rpx;">
+      <h1>不可思议的朋友</h1>
+      <view>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <text style="color:orange; font-size: 46rpx;margin-left: 30rpx;">5.0</text>
+      </view>
+      <view>
+        <text class="zi">刘慈欣创作的系列长篇科幻小说地球往返三部曲的第三部作品</text>
+      <view style="margin-top: 20rpx;">
+        <text class="ziti2">336 人阅读</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class="down">
+    <image class="tu" src="../img/fabu1.png"></image>
+    <view class="right" style="margin-top: 20rpx;">
+      <h1>步履不停</h1>
+      <view>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <text style="color:orange; font-size: 46rpx;margin-left: 30rpx;">5.0</text>
+      </view>
+      <view>
+        <text class="zi">刘慈欣创作的系列长篇科幻小说地球往返三部曲的第三部作品</text>
+      <view style="margin-top: 20rpx;">
+        <text class="ziti2">336 人阅读</text>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

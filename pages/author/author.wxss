@@ -6,7 +6,7 @@
 .up{
   display: flex;
   text-align: center;
-  padding: 20rpx 80rpx;
+  padding: 20rpx 40rpx;
   border-bottom: 1px solid #4f4f4f;
 }
 .toux1{
@@ -25,8 +25,8 @@
   color: #bbb;
 }
 .wenzi{
-  padding-top: 20rpx;
-  margin-bottom: 40rpx;
+  padding-top: 30rpx;
+  margin-bottom: 30rpx;
 }
 h1{
   color: white;

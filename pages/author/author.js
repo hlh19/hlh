@@ -34,6 +34,12 @@ Page({
     ],
   },
 
+  zuoze: function () {
+    wx.navigateTo({
+      url: "../zuoze/zuoze"
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

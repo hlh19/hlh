@@ -1,0 +1,82 @@
+/* pages/zuoze/zuoze.wxss */
+.zuoze{
+  height:100%;
+  background-color: #363636;
+  padding: 0rpx 40rpx;
+}
+.touxiang{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 120rpx;
+  margin-right: 30rpx;
+}
+.up{
+  display: flex;
+}
+.share{
+  width: 170rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  border: 1px solid #bbb;
+  color: #bbb;
+  margin-top: 40rpx;
+  line-height: 80rpx;
+}
+.guanzhu{
+  width: 170rpx;
+  height: 60rpx;
+  color: white;
+  background-color: #6495ED;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-top: 135rpx;
+  margin-left: 20rpx;
+  line-height: 60rpx;
+}
+.mid{
+  width: 100%;
+  background-color: #4f4f4f;
+  display: flex;
+  border-radius: 20rpx;
+  margin-top: 60rpx;
+}
+.row{
+  flex: 1;
+  padding: 20rpx 0rpx;
+  text-align: center;
+}
+.wenzi{
+  margin-top: 60rpx;
+}
+h1{
+  color: white;
+  font-size: 36rpx;
+}
+.ziti{
+  color: #6495ED;
+  font-size: 24rpx;
+  float: right;
+}
+.down{
+  display: flex;
+  padding: 60rpx 0rpx;
+  border-bottom: 2rpx solid #707070;
+}
+.tu{
+  width: 300rpx;
+  height: 270rpx;
+  border-radius: 20rpx;
+  margin-right: 30rpx;
+}
+.zi{
+  color: #828d9a;
+  font-size: 26rpx;
+}
+.xing{
+  width: 40rpx;
+  height: 40rpx;
+}
+.ziti2{
+  color: #6495ED;
+  font-size: 24rpx;
+}

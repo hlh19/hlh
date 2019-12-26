@@ -3,22 +3,28 @@
   height:1360rpx;
   background-color: #363636;
 }
-.sousuo{
-  width: 400rpx;
-  height: 100rpx;
-  color: #eee; 
-}
 .search{
   background-color: #707070;
   border-radius: 100rpx;
   display: flex;
   margin-left: 40rpx;
-  margin-right: 40rpx;
+  margin-right: 140rpx;
   margin-bottom: 40rpx;
+}
+.sousuo{
+  width: 300rpx;
+  height: 100rpx;
+  color: #eee; 
 }
 .ss{
   width: 80rpx;
   height: 80rpx;
+}
+.zi{
+  color: #bbb;
+  position: fixed;
+  top: 40rpx;
+  right: 40rpx
 }
 .wenzi{
   margin-top: 20rpx;
@@ -27,10 +33,56 @@
 h1{
   color: white;
   margin: 40rpx;
-  font-size: 40rpx;
+  font-size: 36rpx;
 }
 .ziti1{
   color: #bbb;
   float: right;
   margin-right: 40rpx;
+}
+.tuwen{
+  display: flex;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.row{
+  color: white;
+  margin-bottom: 40rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 2rpx solid #42423d;
+}
+.item{
+  margin: 16rpx;
+}
+.tu{
+  width: 200rpx;
+  height: 320rpx;
+  border-radius: 20rpx;
+}
+.ziti2{
+  color: #707070;
+  font-size: 28rpx;
+}
+.delete{
+  width: 50rpx;
+  height: 50rpx;
+  float: right;
+  margin-right: 40rpx;
+}
+.lishi{
+  margin-bottom: 60rpx;
+  margin-left: 20rpx;
+}
+.lishi>text{
+  border-radius: 100rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+  margin: 16rpx;
+}
+.ziti3{
+  color:white;
+  font-size: 26rpx;
+  background-color:#707070;
 }

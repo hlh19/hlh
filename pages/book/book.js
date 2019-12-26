@@ -1,4 +1,4 @@
-// pages/search/search.js
+// pages/book/book.js
 Page({
 
   /**
@@ -7,26 +7,29 @@ Page({
   data: {
     shuju: [
       {
-        tupian: '../img/fabu1.png',
-        content: '三体：死神永生',
-        author: "刘慈欣"
+        tupian: '../img/shoucang.png',
+        content: '收藏'
       },
       {
-        tupian: '../img/fabu2.png',
-        content: '人类简史',
-        author: "尤瓦尔·赫拉利"
+        tupian: '../img/share.png',
+        content: '分享'
       },
       {
-        tupian: '../img/fabu3.png',
-        content: '许三观卖血记',
-        author: "余华"
+        tupian: '../img/shujia.png',
+        content: '放入书架'
       }
     ]
   },
 
-  book: function (event) {
+  pl: function () {
     wx.navigateTo({
-      url: "../book/book"
+      url: "../pinglun/pinglun"
+    })
+  },
+
+  showDialogBtn: function () {
+    this.setData({
+      showModal: true
     })
   },
 

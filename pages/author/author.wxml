@@ -16,9 +16,9 @@
       <text class="zi">6598 粉丝</text>
     </view>
     <view class="left">
-      <image class="toux2" src="../img/paihang6.png"></image>
+      <image class="toux2" bindtap="zuoze" src="../img/paihang6.png"></image>
       <view>
-        <text style="color:#6495ED; font-size:18px">田小花</text>
+        <text style="color:#6495ED; font-size:36rpx">田小花</text>
       </view>
       <text class="zi">5416 粉丝</text>
     </view>
@@ -32,7 +32,7 @@
       <view class="row" wx:for="{{shuju}}" wx:key="*this">
         <view class="item">
           <image class="tu" src="{{item.tupian}}"></image>
-          <view style="margin:10px">
+          <view style="margin:20rpx">
             <text>{{item.author}}</text>
           </view>
           <view>
@@ -51,7 +51,7 @@
       <view class="row" wx:for="{{shuju}}" wx:key="*this">
         <view class="item">
           <image class="tu" src="{{item.tupian}}"></image>
-          <view style="margin:10px">
+          <view style="margin:20rpx">
             <text>{{item.author}}</text>
           </view>
           <view>

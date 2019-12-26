@@ -1,15 +1,15 @@
 <!--pages/my/my.wxml-->
 <view class="my">
   <view class="up">
-    <image class="touxiang" src="../img/头像.png"></image>
+    <image class="touxiang" src="../img/touxiang.png"></image>
     <view class="wenzi">
-      <text style="color:white; font-size:22px">李雪玲</text>
+      <text style="color:white; font-size:44rpx">李雪玲</text>
       <view>
         <text style="color: #bbb">中国 · 襄阳</text>
       </view>
     </view>
     <view class="share">
-      <image style="width: 40px; height: 40px; float:left" src="../img/分享.png"></image>
+      <image style="width: 80rpx; height: 80rpx; float:left" src="../img/share.png"></image>
       <text style="display: block">分享</text>
     </view>
   </view>
@@ -17,16 +17,16 @@
     <view class="row" wx:for="{{shuju}}" wx:key="*this">
       <view class="item">
         <view>
-          <text style="color: white; font-size: 20px">{{item.number}}</text>
+          <text style="color: white; font-size: 40rpx">{{item.number}}</text>
         </view>
-          <text style="color: #bbb; font-size: 15px">{{item.content}}</text>
+          <text style="color: #bbb; font-size: 30rpx">{{item.content}}</text>
       </view>
     </view>
   </view>
   <view class="down">
     <view class="row2" wx:for="{{shuju1}}" wx:key="*this">
       <view class="item">
-        <text style="color: #bbb; font-size: 20px">{{item.number}}</text>
+        <text style="color: #bbb; font-size: 36rpx">{{item.number}}</text>
         <text class="ziti">{{item.content}}</text>
       </view>
     </view>

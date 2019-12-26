@@ -4,9 +4,31 @@
     <image class="ss" src="../img/search.png"></image>
     <input class="sousuo" value="搜索..."></input>
   </view>
-  <text style="color:#bbb; float:right">取消</text>
+  <text class="zi">取消</text>
   <view class="wenzi">
     <h1>热门搜索</h1>
     <span class="ziti1">查看全部 ></span>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu" bindtap="book" src="{{item.tupian}}"></image>
+        <view>
+          <text>{{item.content}}</text>
+        </view>
+        <view>
+          <text class="ziti2">{{item.author}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="wenzi">
+    <h1>搜索历史</h1>
+    <image class="delete" src="../img/删除.png"></image>
+  </view>
+  <view class="lishi">
+    <text class="ziti3">艺术设计</text>
+    <text class="ziti3">自由人像雕塑</text>
+    <text class="ziti3">人文环境</text>
   </view>
 </view>

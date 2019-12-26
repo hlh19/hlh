@@ -1,4 +1,4 @@
-// pages/search/search.js
+// pages/zuoze/zuoze.js
 Page({
 
   /**
@@ -7,27 +7,18 @@ Page({
   data: {
     shuju: [
       {
-        tupian: '../img/fabu1.png',
-        content: '三体：死神永生',
-        author: "刘慈欣"
+        number: '1286',
+        content: '关注'
       },
       {
-        tupian: '../img/fabu2.png',
-        content: '人类简史',
-        author: "尤瓦尔·赫拉利"
+        number: '3368',
+        content: '粉丝'
       },
       {
-        tupian: '../img/fabu3.png',
-        content: '许三观卖血记',
-        author: "余华"
+        number: '6673',
+        content: '喜欢'
       }
     ]
-  },
-
-  book: function (event) {
-    wx.navigateTo({
-      url: "../book/book"
-    })
   },
 
   /**

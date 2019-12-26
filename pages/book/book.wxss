@@ -1,0 +1,168 @@
+/* pages/book/book.wxss */
+.book{
+  height: 100%;
+  background-color: #363636;
+  padding: 40rpx
+}
+.up{
+  display: flex;
+  padding-bottom: 60rpx;
+}
+.tu{
+  width: 400rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin-right: 30rpx;
+}
+.zi{
+  color: #828d9a;
+  font-size: 30rpx;
+}
+.xing{
+  width: 40rpx;
+  height: 40rpx;
+}
+.tuwen{
+  display: flex;
+}
+.row{
+  height: 100rpx;
+  line-height: 50rpx;
+  padding-bottom: 20rpx;
+  color: white;
+  border-top: 2rpx solid #707070;
+  border-bottom: 2rpx solid #707070;
+}
+.item{
+  margin: 30rpx;
+}
+.tu2{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 10rpx;
+  display: block;
+  float: left;
+}
+h1{
+  color: white;
+  font-size: 36rpx;
+}
+.wenzi{
+  margin-top: 80rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-top: 2rpx solid #707070;
+  border-bottom: 2rpx solid #707070;
+}
+.ziti{
+  color: #828d9a;
+  float: right;
+  margin-right: 40rpx;
+}
+.tu3{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+.down{
+  display: flex;
+  color: #fff;
+}
+.touxiang{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+.pinglun {
+  margin: 0 20rpx;
+}
+.xinxi {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #828d9a;
+}
+.dianzan image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  color: #828d9a;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.xia{
+  height: 100rpx;
+  background-color: #373a49;
+}
+.xia view{
+  display: inline-block;
+  text-align: center;
+  line-height: 70rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.kan{
+  width: 200rpx;
+  border-radius: 40rpx;
+  background-color: #9295a9;
+}
+.mai{
+  width: 400rpx;
+  border-radius: 40rpx;
+  background-color: #fb6894;
+}
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+.modal-dialog {
+  width: 400rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 9999;
+  background-color: #343744;
+  margin: -278rpx 185rpx;
+  border-radius: 36rpx;
+}
+.modal-title {
+  padding: 50rpx 0px;
+  text-align: center;
+}
+ .modal-title image{
+   width: 170rpx;
+   height: 250rpx;
+ }
+.modal-content {
+  padding: 0px 32rpx;
+}
+.modal-input {
+  display: flex;
+  border-radius: 4rpx;
+  font-size: 35rpx;
+  color: #fff;
+  text-align: center;
+}
+.modal-footer {
+  line-height: 86rpx;
+  background-color: #fb6894;
+  width: 80%;
+  margin: 50rpx auto;
+  border-radius: 40rpx;
+  text-align: center;
+}

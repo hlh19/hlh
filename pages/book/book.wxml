@@ -1,0 +1,84 @@
+<!--pages/book/book.wxml-->
+<view class="book">
+  <view class="up">
+    <image class="tu" src="../img/fabu1.png"></image>
+    <view class="right">
+      <text style="color:white; font-size: 46rpx;">三体：死神永生</text>
+      <view style="margin: 20rpx 0rpx;">
+        <text class="zi">作者：刘慈欣</text>
+      </view>
+      <view>
+        <text class="zi">刘慈欣创作的系列长篇科幻小说地球往返三部曲的第三部作品</text>
+      </view>
+      <view>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <image class="xing" src="../img/star.png"></image>
+        <text style="color:orange; font-size: 46rpx;margin-left: 30rpx;">5.0</text>
+      </view>
+    </view>
+  </view>
+  <view class="tuwen">
+    <view class="row" wx:for="{{shuju}}" wx:key="*this">
+      <view class="item">
+        <image class="tu2" src="{{item.tupian}}"></image>
+        <text bindtap="showDialogBtn">{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="mid">
+    <view style="margin: 20rpx 0rpx;">
+      <h1>详情</h1>
+    </view>
+    <text class="zi">与三体文明的战争使人类第一次看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，在暗夜中发抖。自以为历经沧桑，其实刚刚蹒跚学步；</text>
+  </view>
+  <view class="wenzi">
+    <h1>查看目录</h1>
+    <span class="ziti">></span>
+  </view>
+  <view style="margin: 20rpx 0rpx;">
+    <h1>评论</h1>
+    <image class="tu3" bindtap="pl" src="../img/pinglun.png"></image>
+  </view>
+  <view class="down">
+    <view>
+      <image class="touxiang" src="../img/touxiang.png"></image>
+    </view>
+    <view class="pinglun">
+      <view class="name">你个废物</view>
+      <view class="xinxi">
+        <text>大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典——站在圣母和傻逼的微笑曲线上。</text>
+      </view>
+      <view class="time">
+        <view class="shijian">12-26 11:04</view>
+        <view class="dianzan">
+          <image src="../img/xin.png"></image>
+          <text>134    </text>
+          <image src="../img/xiaoxi.png"></image>
+          <text>89</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="xia">
+  <view class="kan">试看</view>
+  <view class="mai">购买</view>
+</view>
+<!--弹窗-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-title">
+    <image src="../img/fabu1.png"></image>
+  </view>
+  <view class="modal-content">
+    <view class="modal-input">
+      已经将这本书加入到个人书架
+    </view>
+  </view>
+  <view class="modal-footer">
+    好的
+  </view>
+</view>

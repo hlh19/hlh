@@ -7,7 +7,7 @@
     <view class="xinxi">
       <view class="xiantiao">
         <view>
-          <text style="color: white; font-size: 20px">{{item.content}}</text>
+          <text style="color: white; font-size: 40rpx">{{item.content}}</text>
         </view>
         <view>
           <text class="ziti2">{{item.author}}</text>

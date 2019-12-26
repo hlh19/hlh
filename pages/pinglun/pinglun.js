@@ -1,33 +1,11 @@
-// pages/search/search.js
+// pages/pinglun/pinglun.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    shuju: [
-      {
-        tupian: '../img/fabu1.png',
-        content: '三体：死神永生',
-        author: "刘慈欣"
-      },
-      {
-        tupian: '../img/fabu2.png',
-        content: '人类简史',
-        author: "尤瓦尔·赫拉利"
-      },
-      {
-        tupian: '../img/fabu3.png',
-        content: '许三观卖血记',
-        author: "余华"
-      }
-    ]
-  },
 
-  book: function (event) {
-    wx.navigateTo({
-      url: "../book/book"
-    })
   },
 
   /**

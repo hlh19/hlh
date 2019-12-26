@@ -9,7 +9,10 @@
     "pages/author/author",
     "pages/faxian/faxian",
     "pages/tansuo/tansuo",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/book/book",
+    "pages/pinglun/pinglun",
+    "pages/zuoze/zuoze"
   ],
   "window": {
     "backgroundTextStyle": "light",

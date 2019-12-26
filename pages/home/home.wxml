@@ -56,13 +56,13 @@
   <view class="wenzi">
     <h1>热门搜索</h1>
     <view class="remen">
-      <text style="color:#FF82AB; border:1px solid #FF82AB;">2018排行榜</text>
-      <text style="color:#3CB371; border:1px solid #3CB371;">职场热门</text>
-      <text style="color:#FF7256; border:1px solid #FF7256;">都市言情</text>
+      <text style="color:#FF82AB; border:2rpx solid #FF82AB;">2018排行榜</text>
+      <text style="color:#3CB371; border:2rpx solid #3CB371;">职场热门</text>
+      <text style="color:#FF7256; border:2rpx solid #FF7256;">都市言情</text>
     </view>
     <view class="row remen">
-      <text style="color:#8A2BE2; border:1px solid #8A2BE2;">哈佛大学经济管理类</text>
-      <text style="color:#EEEE00; border:1px solid #EEEE00;">领导才能</text>
+      <text style="color:#8A2BE2; border:2rpx solid #8A2BE2;">哈佛大学经济管理类</text>
+      <text style="color:#EEEE00; border:2rpx solid #EEEE00;">领导才能</text>
     </view>
   </view>
   <view class="wenzi">
@@ -78,7 +78,7 @@
         <view class="xinxi">
           <view class="xiantiao">
             <view>
-              <text style="color: white; font-size: 20px">{{item.content}}</text>
+              <text style="color: white; font-size: 40rpx">{{item.content}}</text>
             </view>
             <view>
               <text class="ziti2">{{item.author}}</text>
