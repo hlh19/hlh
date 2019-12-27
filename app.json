@@ -12,7 +12,10 @@
     "pages/search/search",
     "pages/book/book",
     "pages/pinglun/pinglun",
-    "pages/zuoze/zuoze"
+    "pages/zuoze/zuoze",
+    "pages/yve/yve",
+    "pages/chongzhi/chongzhi",
+    "pages/gouwuce/gouwuce"
   ],
   "window": {
     "backgroundTextStyle": "light",

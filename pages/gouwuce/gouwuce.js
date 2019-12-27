@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/gouwuce/gouwuce.js
 Page({
 
   /**
@@ -7,45 +7,24 @@ Page({
   data: {
     shuju: [
       {
-        number: '1286',
-        content: '关注'
+        img: '../img/fabu4.png',
+        bookname: '未来简史',
+        name: '作者：尤瓦尔·赫拉利',
+        jiage: '￥56.00'
       },
       {
-        number: '3368',
-        content: '粉丝'
+        img: '../img/kehuan3.png',
+        bookname: '银河帝国',
+        name: '作者：艾萨克·阿西莫夫',
+        jiage: '￥86.00'
       },
       {
-        number: '6673',
-        content: '喜欢'
-      }
-    ],
-    shuju1: [
-      {
-        number: '个人信息',
-        content: '>'
-      },
-      {
-        number: '我的消息',
-        content: '>'
-      },
-      {
-        number: '账户余额',
-        content: '>'
-      },
-      {
-        number: '我的评论',
-        content: '>'
+        img: '../img/kehuan4.png',
+        bookname: '海底万两',
+        name: '作者：懦勒·凡尔纳',
+        jiage: '￥99.00'
       }
     ]
-  },
-
-  yve: function (event) {
-    var a = event.currentTarget.dataset.lin
-    if (a == '账户余额') {
-      wx.navigateTo({
-        url: '../yve/yve'
-      })
-    }
   },
 
   /**

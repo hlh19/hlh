@@ -43,7 +43,7 @@ Page({
     shuju3: [
       {
         tupian: '../img/fabu1.png',
-        content: '三体：死神永生',
+        content: '三体:死神永生',
         author: "刘慈欣"
       },
       {

@@ -1,0 +1,12 @@
+<!--pages/yve/yve.wxml-->
+<view class="page">
+  <view class="yve">
+    <view>
+      <text class="yuan">我的余额（元）</text>
+    </view>
+    <text class="qian">1375.00</text>
+  </view>
+  <view class="chongz" bindtap="chz">
+    <text class="zi">充值</text>
+  </view>
+</view>

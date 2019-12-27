@@ -1,0 +1,76 @@
+/* pages/gouwuce/gouwuce.wxss */
+.gwc{
+  height:100%;
+  background-color: #363636;
+  margin-bottom: 60rpx;
+}
+.row{
+  width: 640rpx;
+  height: 290rpx;
+  border-radius: 20rpx;
+  background-color: #4f4f4f;
+  display: flex;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  margin-bottom: 60rpx;
+}
+.tu{
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin-top: -40rpx;
+  margin-left: 40rpx
+}
+.rexiao-dea {
+  margin: 20rpx;
+}
+.rexiaobn {
+  padding-top: 30rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+.rexiaon {
+  color: #bbb;
+  margin-top: 13rpx;
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #353c46;
+  
+}
+.rexiaojs {
+  font-size: 36rpx;
+  color: #ff1d8d;
+  margin-top: 25rpx;
+}
+.dian{
+  color: #363636;
+  margin-left: 60rpx;
+}
+.botbtn{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.jisuan{
+  display: flex;
+  justify-content: space-between;
+
+}
+.zongji , .yue{
+  display: flex;
+  padding: 30rpx 48rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.num{
+  color: #ff1d8d;
+}
+
+.goumai{
+  background-color: #fb6894;
+  font-size: 32rpx;
+  padding: 45rpx 0;
+  color: #fff;
+  text-align: center;
+}

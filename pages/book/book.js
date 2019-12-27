@@ -27,6 +27,12 @@ Page({
     })
   },
 
+  gwc: function () {
+    wx.navigateTo({
+      url: "../gouwuce/gouwuce"
+    })
+  },
+
   showDialogBtn: function () {
     this.setData({
       showModal: true

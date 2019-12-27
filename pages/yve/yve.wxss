@@ -1,0 +1,36 @@
+/* pages/yve/yve.wxss */
+.page{
+  height: 1320rpx;
+  background-color: #363636;
+}
+.yve{
+  width: 80%;
+  height: 240rpx;
+  border-radius: 20rpx;
+  padding: 40rpx;
+  background-color: #4F4F4F;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.yuan{
+  color: #828d9a;
+  font-size: 50rpx;
+}
+.qian{
+  color: white;
+  font-size: 120rpx;
+}
+.chongz{
+  width: 100%;
+  height: 160rpx;
+  background-color: #FF82AB;
+  text-align: center;
+  position: fixed;
+  bottom: 0rpx;
+}
+.zi{
+  color: white;
+  font-size: 40rpx;
+  display: block;
+  line-height: 160rpx;
+}

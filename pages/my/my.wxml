@@ -26,7 +26,7 @@
   <view class="down">
     <view class="row2" wx:for="{{shuju1}}" wx:key="*this">
       <view class="item">
-        <text style="color: #bbb; font-size: 36rpx">{{item.number}}</text>
+        <text data-lin='{{item.number}}' bindtap="yve" style="color: #bbb; font-size: 36rpx">{{item.number}}</text>
         <text class="ziti">{{item.content}}</text>
       </view>
     </view>

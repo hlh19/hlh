@@ -1,0 +1,23 @@
+<!--pages/gouwuce/gouwuce.wxml-->
+<view class="gwc">
+    <view class="row" wx:for="{{shuju}}" wx:key="key">
+      <image class="tu" src="{{item.img}}"></image>
+      <view class="rexiao-dea">
+        <view class="rexiaobn">{{item.bookname}}</view>
+        <view class="rexiaon">{{item.name}}</view>
+        <view class="rexiaojs">{{item.jiage}}</view>
+      </view>
+      <view class="dian">...</view>
+    </view>
+  <view class="botbtn">
+    <view class="jisuan">
+      <view class="zongji">总计(元)：
+        <view class="num">241.00</view>
+      </view>
+      <view class="yue">余额(元)：
+        <view class="num">1375.00</view>
+      </view>
+    </view>
+    <view class="goumai">购买</view>
+  </view>
+</view>

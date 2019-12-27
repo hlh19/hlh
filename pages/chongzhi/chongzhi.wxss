@@ -1,0 +1,113 @@
+/* pages/chongzhi/chongzhi.wxss */
+.page{
+  background-color: #21272e;
+  padding: 0 48rpx 900rpx;
+  overflow: hidden;
+}
+.chongz{
+  background-color: #2b323b;
+  padding: 50rpx 40rpx;
+  margin-top: 70rpx;
+  border-radius: 10rpx;
+}
+.yve{
+  font-size: 36rpx;
+  color: #616b77;
+  margin-bottom: 50rpx;
+}
+.qian{
+  font-size: 90rpx;
+  color: #fff;
+  height: 120rpx;
+  border-bottom: 1rpx solid #434e5c;
+  position: relative;
+  padding-left: 90rpx;
+}
+.qian::before{
+  content: '￥';
+  position: absolute;
+  left: 0;
+}
+.chongzhi{
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #2e363f;
+  padding: 50rpx 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.yuan{
+  font-size: 36rpx;
+  color: #75808d;
+}
+.qrfk{
+  padding: 95rpx 0 60rpx 50rpx;
+  background-color: #2d353f; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.order{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50rpx 0rpx;
+  border-bottom:1rpx solid #333c47;
+  padding-right: 48rpx;
+}
+.ddxx{
+  font-size: 36rpx;
+  color: #dcdeea;
+
+}
+.right{
+  font-size: 26rpx;
+  color: #636c77;
+}
+.icon-zuo{
+  color: #a2a8ba;
+}
+.yue{
+  color: #636c77;
+  position: relative;
+  padding-right: 40rpx;
+  font-size: 24rpx;
+}
+.yue::before{
+  position: absolute;
+  right: 0;
+  color: #a2a8ba;
+}
+.jine{
+  font-size: 90rpx;
+  height: 100rpx;
+  color: #fff;
+}
+.yanzh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  color: #636c77;
+  padding-top: 60rpx;
+}
+.zhiw{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 10rpx;
+}
+.mima{
+  color: #fb6894;
+  margin-left: 12rpx;
+}
+.icon-guanbi{
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  font-size: 32rpx;
+}

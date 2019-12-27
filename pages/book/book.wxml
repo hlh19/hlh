@@ -65,7 +65,7 @@
 </view>
 <view class="xia">
   <view class="kan">试看</view>
-  <view class="mai">购买</view>
+  <view class="mai" bindtap="gwc">购买</view>
 </view>
 <!--弹窗-->
 <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
